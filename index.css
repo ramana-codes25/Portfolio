@@ -232,6 +232,7 @@ nav input{
     align-items: center;
     gap: 10px;
 }
+
 .btn button:hover {
     /* transform: scale(1.1); */
     transition: all 1s;
@@ -246,6 +247,7 @@ nav input{
     background: rgb(14, 19, 48);
     border: 3px solid rgb(20, 59, 108);
     color: rgb(20, 59, 108);
+    text-decoration: none;
 }
 
 .homeright{
@@ -310,7 +312,7 @@ nav input{
     width: 635px;
     height: 425px;
     /* background-color: rgb(71, 43, 2); */
-    padding:35px 0 0 120px;
+    padding:35px 0 0 110px;
     display: flex;
     flex-direction: column;
     /* justify-content: center;  */
@@ -1976,7 +1978,7 @@ nav{
 
 @media screen and (max-width:600px) {
         .page1{
-            height: 100vh;
+            height: 95vh;
             align-items: start;
         }
         .portfolio{
@@ -2243,10 +2245,10 @@ nav{
     }
     .year1{
         padding-left: 39px;
-        margin-top: -23px;
+        margin-top: -30px;
     }
     .year2{
-        margin-top: 230px;
+        margin-top: 220px;
     }
     .content1{
         margin-top: -70px;
