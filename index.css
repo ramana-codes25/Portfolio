@@ -702,14 +702,23 @@ nav input{
 
 }
 .my-skills{
-    width: 100%;
+    /* width: 100%;
     height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top:70px;  */
+    /* background-color: burlywood; */
+
+    width: 100%;
+    height: 110px;
     /* background-color: burlywood; */
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top:70px; 
+    padding-top:100px; 
 }
 .my-skills h1:first-child{
     /* font-size: 50px; */
@@ -738,7 +747,7 @@ nav input{
     align-items: center;
     justify-content: center;
     /* gap: 20px; */
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     padding-left: 40px;
 } 
 .skill-set div:first-child{
@@ -848,12 +857,21 @@ nav input{
 .my-projects{
     width: 100%;
     height: 20vh;
-    /* background-color: burlywood; */
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top:150px; 
+    padding-top:150px;  
+     /* background-color: burlywood; */
+
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 110px;
+    padding-top:110px;  */
+    /* background-color: burlywood; */
 }
 .my-projects h1:first-child{
     /* font-size: 50px; */
@@ -894,9 +912,9 @@ nav input{
 
 
     animation: project 1s linear;
-    animation-timeline: scroll();
+    /* animation-timeline: scroll(); */
     /* animation-timeline: view(); */
-    animation-range: exit;
+    /* animation-range: exit; */
     
 }
 @keyframes project {
@@ -1032,12 +1050,13 @@ nav input{
 .my-journey{
     width: 100%;
     height: 20vh;
-    /* background-color: burlywood; */
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     padding-top:70px; 
+    /* background-color: burlywood; */
+
 }
 .my-journey h1:first-child{
     /* font-size: 50px; */
@@ -1262,14 +1281,23 @@ nav input{
     top: 0px;
 }
 .reach-me{
-    width: 100%;
+    /* width: 100%;
     height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top:130px;  */
+    /* background-color: burlywood; */
+
+    width: 100%;
+    height: 110px;
     /* background-color: burlywood; */
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top:130px; 
+    padding-top:100px; 
 }
 .reach-me h1:first-child{
     /* font-size: 50px; */
@@ -1948,7 +1976,7 @@ nav{
 
 @media screen and (max-width:600px) {
         .page1{
-            height: 750px;
+            height: 100vh;
             align-items: start;
         }
         .portfolio{
@@ -1971,8 +1999,8 @@ nav{
         }
         .homeleft{
             /* width: 100%; */
-            height: 310px;
-             gap: 10px;
+            height: 350px;
+             gap: 20px;
              display: flex;
              /* justify-content: center; */
              align-items: center;
@@ -1985,8 +2013,8 @@ nav{
             gap: 10px;
         }
         .home{
-            padding: 60px 10px 0 10px;
-            gap: 0px;
+            padding: 90px 10px 0 10px;
+            gap: 40px;
             align-items: center;
         }
         .icon{
@@ -2118,10 +2146,10 @@ nav{
 
                                                             /* page 3 */
         .page3{
-            height: 450px;
+            height: 425px;
         }
         .skill-set{
-            height: 25vh;
+            height: 215px;
         }
         .my-skills h1:first-child {
             font-size: 43px;
@@ -2141,13 +2169,18 @@ nav{
 
                                                              /* Page 4 */
     .page4{
-       height: 581px;
+       height: 630px;
+    }
+    .my-projects{
+        /* height: 100px; */
+        height: 110px;
+        padding-top:110px;
     }
     .my-projects h1:first-child {
         font-size: 43px;
     }
     .my-projects h1:last-child {
-        margin-top: -178px;
+        margin-top: -100px;
         width: 155px;
         height: 32px;
         padding: 6px;
@@ -2163,13 +2196,17 @@ nav{
     .project{
         height: 965px;
         transform: scale(0.47);
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
                                                             /* Page 5 */
     .page5{
-        height: 633px;
+        height: 700px;
 
+    }
+    .my-journey{
+        height: 110px;
+        padding-top:100px; 
     }
     .my-journey h1:first-child {
         font-size: 43px;
@@ -2189,7 +2226,7 @@ nav{
     }
     .time-line {
         left: 7%;
-        height: 76%;
+        height: 65%;
         position: absolute;
     }
     .duration1 h2 {
@@ -2206,10 +2243,10 @@ nav{
     }
     .year1{
         padding-left: 39px;
-        margin-top: -20px;
+        margin-top: -23px;
     }
     .year2{
-        margin-top: 238px;
+        margin-top: 230px;
     }
     .content1{
         margin-top: -70px;
@@ -2252,10 +2289,11 @@ nav{
                                                             /* Page 7 */
     .page7{
         height: 678px;
+        /* padding-bottom: 20px; */
     }
     .reach-me{
         padding-top: 0;
-        height: 15vh;
+        /* height: 15vh; */
     }
     .reach-me h1:first-child {
         font-size: 43px;
@@ -2276,7 +2314,8 @@ nav{
     }
     .reach-out{
         transform: scale(0.6);
-        margin-top: -160px;
+        margin-top: -180px;
+
     }
     .contact img:nth-child(1) {
         margin-top: -150px;
