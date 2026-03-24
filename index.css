@@ -155,6 +155,7 @@ nav input{
     display: flex;
     gap: 40px;
 }
+
 .available div{
     display: flex;
     gap: 5px;
@@ -220,6 +221,10 @@ nav input{
     align-items: center;
     gap: 30px;
 
+}
+
+.btn a{
+    text-decoration: none;
 }
 .btn button{
     width: 200px;
